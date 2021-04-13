@@ -24,5 +24,6 @@ jobs:
       - run: sudo apt update
       - run: sudo apt install yarn
       - run: yarn --version
+      - run: yarn run build
       - run: yarn test
 
